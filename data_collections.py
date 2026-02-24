@@ -77,4 +77,4 @@ for n in student_list:
 print("# --- Studenti ar atzīmi >= 80 ---")
 
 for i, n in enumerate(high_grade, start=1):
-    print(f"{i}. {n["name"]} - {n["grade"]}")
+    print(f"# {i}. {n["name"]} - {n["grade"]}")
