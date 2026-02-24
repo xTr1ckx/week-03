@@ -15,7 +15,7 @@ def capitalize(text):
     str: Teksts ar pirmo lielo burtu
     
     Example
-    --------
+    -------
     >>> capitilize("hello")
     Hello
     
@@ -42,7 +42,7 @@ def truncate(text, max_len=20):
     str: Apgriezts teksts
     
     Example
-    --------
+    -------
     >>> truncate("Hello world", 5)
     Hello...
     """
@@ -67,7 +67,7 @@ def count_words(text):
     int: Vārdu daudzums tekstā
     
     Example
-    --------
+    -------
     >>> count_words("Hello world")
     2
     """
@@ -94,7 +94,7 @@ def clamp(num, low, high):
     int vai float: Ierobežotā vērtība
     
     Example
-    --------
+    -------
     >>> clamp(15, 0, 10)
     10
     """
@@ -115,7 +115,7 @@ def is_prime(num):
     bool: True, ja ir pirmskaitlis, False, ja nav
     
     Example
-    --------
+    -------
     >>> is_prime(3)
     True
     """
@@ -141,7 +141,7 @@ def factorial(n):
     int: n!
     
     Example
-    --------
+    -------
     >>> factorial(4)
     24
     """
@@ -172,7 +172,7 @@ def total(numbers):
     int vai float: Skaitļu summa
     
     Example
-    --------
+    -------
     >>> total(3, 6, 1)
     10
     """
@@ -198,7 +198,7 @@ def average(numbers):
     float: Vidējā skaitļu vērtība
     
     Example
-    --------
+    -------
     >>> average(2, 3, 7)
     4
     """
