@@ -19,7 +19,7 @@ def play_round():
         if result == "correct":
             show_game_over(secret, attempts, won=True)
             return
-    
+     
         show_hint(result)
 
     show_game_over(secret, attempts, won=False)
